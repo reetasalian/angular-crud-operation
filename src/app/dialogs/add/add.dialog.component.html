@@ -1,0 +1,86 @@
+<div class="container">
+  <h3 mat-dialog-title>Add new Client</h3>
+  <mat-dialog-content class="mat-typography">
+    <form [formGroup]="reactiveForm" #form="ngForm">
+      <div class="row">
+        <div class="col mb-2">
+          <mat-form-field appearance="fill">
+            <mat-label>Name:</mat-label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              formControlName="name"
+              matInput
+              placeholder="Client name"
+              required
+              minlength="1"
+              maxlength="250"
+            />
+            <mat-error *ngIf="name.invalid">{{ getErrorMessage() }}</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mb-2">
+          <mat-form-field appearance="fill">
+            <mat-label>Email:</mat-label>
+            <input
+              matInput
+              placeholder="pat@example.com"
+              required
+              type="email"
+              id="email"
+              name="email"
+              formControlName="email"
+              minlength="1"
+              maxlength="250"
+            />
+            <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mb-2">
+          <mat-form-field hintLabel="Max 10 digits" appearance="fill">
+            <mat-label>Phone No:</mat-label>
+            <input
+              #input
+              matInput
+              maxlength="10"
+              type="number"
+              id="phone_no"
+              name="phone_no"
+              formControlName="phone_no"
+              placeholder="Phone No"
+              required
+            />
+            <mat-hint align="end">{{ input.value.length }}/10</mat-hint>
+            <mat-error *ngIf="phone_no.invalid">{{
+              getErrorMessage()
+            }}</mat-error>
+          </mat-form-field>
+          <div *ngIf="phone_no.errors?.pattern">
+            Mobile number is not 10 digit
+          </div>
+        </div>
+      </div>
+    </form>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <div class="form-group">
+      <button mat-button mat-dialog-close>Cancel</button>
+      <button
+        type="submit"
+        mat-button
+        [mat-dialog-close]="true"
+        cdkFocusInitial
+        (click)="validate()"
+        [disabled]="reactiveForm.invalid"
+        color="primary"
+      >
+        Save
+      </button>
+    </div>
+  </mat-dialog-actions>
+</div>

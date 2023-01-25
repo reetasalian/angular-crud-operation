@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Dell",
+    "email": "contact@dell.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "ITC",
+    "email": "info@itc.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "Amazon",
+    "email": "BIZZ@amazon.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "parle",
+    "email": "info@parle.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "Nestle",
+    "email": "info@nestle.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "College",
+    "email": "contact@college.com",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "TATAMOTORS",
+    "email": "contact@tatamotors.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "Britannia",
+    "email": "info@britannia.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "Titan",
+    "email": "contact@titan.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "Cipla",
+    "email": "info@cipla.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "SBILife",
+    "email": "contact@sbilife.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "AsianPaint",
+    "email": "contact@asianpaint.com",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "Maruti",
+    "email": "contact@maruti.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "BajajAuto",
+    "email": "info@bajajauto.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "BPCL",
+    "email": "contact@bpcl.com",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "BajajFinSV",
+    "email": "info@bajajfin.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "ApolloHosp",
+    "email": "contact@apollo.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "ONGC",
+    "email": "info@ongc.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "HDFC",
+    "email": "info@hdfcbank.com",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "AXIS",
+    "email": "contact@axisbank.in",
+    "phone_no": "1234567890"
+  },
+  {
+    "name": "ICICI",
+    "email": "contact@icici.in",
+    "phone_no": "1234567890"
+  }
+]

@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 8px 24px 0;
+  font-size: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid transparent;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  flex-grow: 1;
+  margin-top: 8px;
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.client-card {
+  max-width: 400px;
+}
+
+.client-image {
+  background-image: url('https://cdn.pixabay.com/photo/2015/03/04/22/35/avatar-659651_960_720.png');
+  background-size: cover;
+}
+
+#btnAddClient {
+  background-color: #28afaf;
+  color: white !important;
+  font-size: 12px;
+}

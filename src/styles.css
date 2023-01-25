@@ -1,0 +1,17 @@
+/* Add application styles & imports to this file! */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-color: #efebeb;
+}
+button.btnEditDelete span.mdc-button__label {
+  color: #28afaf !important;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: #efebeb !important;
+  border: 1px solid #c1bcbc !important;
+}
