@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
 
   openAddDialog() {
     const dialogRef = this.dialogService.open(AddDialogComponent, {
-      data: { issue: {} },
+      data: { client: {} },
     });
 
     dialogRef.afterClosed().subscribe((result) => {
@@ -173,8 +173,8 @@ export class UpdateDataSource extends DataSource<Client> {
         // Filter data
         this.filteredData = this._clientDB.data
           .slice()
-          .filter((issue: Client) => {
-            const searchStr = issue.name.toLowerCase();
+          .filter((client: Client) => {
+            const searchStr = client.name.toLowerCase();
             return searchStr.indexOf(this.filter.toLowerCase()) !== -1;
           });
 
